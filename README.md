@@ -36,7 +36,7 @@ TodoList est un projet lié à la Gestion des Tâches sur un site web. Il a ét�
 
 ## 🔖 Layout
 
-Vous pouvez visualiser la présentation du projet via [CE LIEN](#Figma). Vous devez avoir un compte sur [Figma](https://figma.com) pour y accéder.
+Dans quelques jours, vous pourrez visualiser la présentation du projet via [CE LIEN](#Figma). Cépendant, vous devez avoir un compte sur [Figma](https://figma.com) pour y accéder.
 
 ## :memo: Licence
 
