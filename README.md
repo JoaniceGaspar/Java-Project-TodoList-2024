@@ -32,15 +32,15 @@ Ce projet a été développé avec les technologies suivantes :
 
 ## 💻 Projet
 
-TodoList est un projet lié à la Gestion des Tâches sur un site web, qui a été conçu dans le but de consolider les bases en Java
+TodoList est un projet lié à la Gestion des Tâches sur un site web. Il a été conçu dans le but de consolider les bases en Java.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](#Figma). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Vous pouvez visualiser la présentation du projet via [CE LIEN](#Figma). Vous devez avoir un compte sur [Figma](https://figma.com) pour y accéder.
 
 ## :memo: Licence
 
-Esse projeto está sob a licença MIT.
+Ce projet est sous licence MIT
 
 ---
 
