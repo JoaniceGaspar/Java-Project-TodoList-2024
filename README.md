@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projet</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -21,7 +21,7 @@
   <img alt="Projet TodoList" src="#">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologies
 
 Ce projet a été développé avec les technologies suivantes :
 
@@ -38,10 +38,10 @@ TodoList est un projet lié à la Gestion des Tâches sur un site web, qui a ét
 
 Você pode visualizar o layout do projeto através [DESSE LINK](#Figma). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
+## :memo: Licence
 
 Esse projeto está sob a licença MIT.
 
 ---
 
-Fait avec ♥ by JoaniceGD
+Fait avec ♥ by JoaniceG via [Rocketseat](https://www.rocketseat.com.br/)
