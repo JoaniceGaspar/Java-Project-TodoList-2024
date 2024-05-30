@@ -1,38 +1,36 @@
 package io.github.joanicegaspar.todolist.user;
 
-// A classe para criarmos um Objeto que será o Modelo de Usuário que nós pretendemos ter, daí o nome "UserModel".
+import java.time.LocalDateTime;
+import java.util.UUID;
 
+import org.hibernate.annotations.CreationTimestamp;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+// A classe para criarmos um Objeto que será o Modelo de Usuário que nós pretendemos ter, daí o nome "UserModel".
 // Este usuário terá: username, name e um password
+
+//@Data - uma funcionalidade da Library Lombok
+// Coloca automaticamente (por debaixo dos panos), os getters e setters de todos os atributos (username, name...)
+// @Getter - caso queiramos apenas os getters
+// @Setter - caso queiramos apenas os setters
+
+@Data
+@Entity(name = "tb_USERS")
 public class UserModel {
   
+  @Id // é uma forma de indicar que o id, será a Chave Primária (Primary Key)
+  @GeneratedValue(generator = "UUID") // para que ele gere os Ids de forma automática
+  private UUID id;
+
   private String username;
   private String name;
   private String password;
 
-  //Getters (to get ou receive data) and 
-  //Setters (to set or modify data)
+  @CreationTimestamp
+  private LocalDateTime createdAt;
 
-  // Get and Set for username
-  public void setUsername(String username) {
-    this.username = username;
-  }
-  public String getUsername() {
-    return username;
-  }
-
-  // Get and Set for Name
-  public void setName(String name) {
-    this.name = name;
-  }
-  public String getName() {
-    return name;
-  }
-
-  // Get and Set for Password
-  public void setPassword(String password) {
-    this.password = password;
-  }
-  public String getPassword() {
-    return password;
-  }
 }
